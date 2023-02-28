@@ -1,0 +1,15 @@
+(je ne sais pas encore comment utliser les accents sur mon ordinateur)
+
+HTML Commentaires :
+1 - J'ai ajoute un autre side bar icon avec les ecrans de moin de 800px
+2 - Un footer a ete ajoute pour plus de complementarite sur le site
+3 - J'ai ajoute d'autre image que j'ai pris sur le web
+
+
+CSS Commentaires :
+1 - La font general est poppins "https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700;800&display=swap"
+2 - l'unite de font-size que j'ai utilise est "vw" car il suit le changement de taille de l'ecran
+
+
+JS commentaires :
+1 - J'ai creee un boutton pour fermer le side bar qu'on peut ouvrir avec le boutton humberger
