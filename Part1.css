@@ -100,11 +100,13 @@ a {
 }
 
 .textimg {
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     display: block;
     color: #fff;
     text-align: center;
-    font-size: 200%;
+    text-shadow: 5px 5px 5px black;
+    font-size: 35pt;
     font-weight: 700;
     top: 20vw;
     left: 25%;
