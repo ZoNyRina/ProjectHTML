@@ -1,0 +1,130 @@
+
+/*INDEX*/
+
+.FillTab {
+    display: flex;
+    background-color:#cde3fa; 
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    padding: 24px;
+    page-break-inside: avoid;
+    word-wrap: break-word;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+input[type="submit"] {
+    background-color: rgb(6, 125, 223);
+    color: white;
+    border-radius:5px;
+    padding:5px;
+    border-color:rgb(6, 125, 223);
+}
+
+input, textarea, select {
+    font-family: var(--font);
+    font-size: 10pt;
+    margin-top: 5px;
+    padding:5px;
+
+}
+
+.logoutbutton {
+    background-color: #fa5448;
+    color: white;
+    border-radius:5px;
+    padding:5px;
+    border-color:#fa5448;
+    margin-left: 70%;
+}
+
+.h2 {
+    text-align: center;
+}
+
+/*ISNT WORKING*/
+
+.itsnotworking {
+
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+
+.oops {
+    text-align: center;
+}
+
+.pleaselogout {
+    text-align: center;
+
+}
+
+/*NEW ACCOUNT*/
+
+.textfornewcomer {
+    text-align: center;
+}
+
+.newaccountdiv {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 720px;
+    border-radius:5px;
+}
+
+.textnewaccount{
+    margin: 15px;
+
+}
+
+.buttonnewaccount {
+    background-color: rgb(6, 125, 223);
+    color: white;
+    border-radius:5px;
+    padding:10px;
+    border-color:rgb(6, 125, 223);
+    font-size: 15pt;
+}
+
+.dejauncompt {
+    color: blue;
+    font-size: 15pt;
+}
+
+.inputnewaccount {
+    width: 400px;
+}
+
+
+
+/*SEND EMAIL*/
+
+textarea {
+    height: 300px;
+    width: 500px;
+}
+
+.emailplaceholder {
+    width: 500px;
+}
+
+.emailtext {
+    text-align: center;
+}
+
+

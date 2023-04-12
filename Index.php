@@ -14,34 +14,47 @@
         <div class="textimg">Come Experience Canada</div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="Part1.js"></script>
+
+
+<!-- HeaderBar -->
         <header class="navbar">
             <div><button class="hambutton"><img src="image/hamburger.png" class="ham"></button></div>
             <div class="title">Halifax Canoe Kayak</div>
             <div class="logoposition"><img src="image/Logo.png" class="logo" alt="imglogo"/></div>
         </header>
+
+
+<!-- SideBar -->
         <nav class="sidebar">
             <button class="closebutton"><img src="image/close-line.png" class="imgclose"></button>
             <ul>
-                <li><a href="http://127.0.0.1:5500/Part1.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="booktrip.html">Book Trip</a></li>
-                <li><a href="adminlogin.html">Admin Login</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="http://localhost/xamppfiles/ProjectHTMLDevoir2/Part1.php">Home</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="booktrip.php">Book Trip</a></li>
+                <li><a href="index2.php">Log In</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
             </ul>
         </nav>
 
+
+<!-- SideBar2(@media800px) -->
         <nav class="sidebar2">
             <button class="closebutton2"><img src="image/close-line.png" class="imgclose"></button>
             <ul>
-                <li><a href="http://127.0.0.1:5500/Part1.html"><button class="homebutton"><img src="image/home-2-line.png" class="imghomebutton"></button></a></li>
-                <li><a href="services.html"><button class="servicebutton"><img src="image/hand-coin-line.png" class="imgservicesbutton"></button></a></li>
-                <li><a href="booktrip.html"><button class="bookbutton"><img src="image/book-open-line.png" class="imgbookbutton"></button></a></li>
-                <li><a href="adminlogin.html"><button class="adminbutton"><img src="image/admin-line.png" class="imgadminbutton"></button></a></li>
-                <li><a href="contactus.html"><button class="contactbutton"><img src="image/phone-line.png" class="imgcontactbutton"></button></a></li>
+                <li><a href="http://localhost/xamppfiles/ProjectHTMLDevoir2/Part1.php"><button class="homebutton"><img src="image/home-2-line.png" class="imghomebutton"></button></a></li>
+                <li><a href="services.php"><button class="servicebutton"><img src="image/hand-coin-line.png" class="imgservicesbutton"></button></a></li>
+                <li><a href="booktrip.php"><button class="bookbutton"><img src="image/book-open-line.png" class="imgbookbutton"></button></a></li>
+                <li><a href="index2.php"><button class="adminbutton"><img src="image/admin-line.png" class="imgadminbutton"></button></a></li>
+                <li><a href="contactus.php"><button class="contactbutton"><img src="image/phone-line.png" class="imgcontactbutton"></button></a></li>
             </ul>
         </nav>
 
+
+<!-- Body(Image Kayak) -->
         <img class="imgcanoe" src="image/CanoeImage.jpg" alt="canoepng"/>
+
+
+<!-- Text -->
         <h1>Upcoming Adventure</h1>
         <div id="text" class="text">
             <div class="space1">
@@ -94,14 +107,17 @@
         poser des informations par rapport aux événements à l'avenir, 
         et pour les visiteurs de s'inscrire pour les voyages.</p>
     </div>
-        <footer>
+
+<!-- Footer -->
+<footer>
             <div>
                 <ul>
-                    <li class="lifooter" ><a class="afooter" href="http://127.0.0.1:5500/Part1.html">Top Page</a></li>
-                    <li class="lifooter" ><a class="afooter" href="contactus.html">Contact Us</a></li>
-                    <li class="lifooter" ><a class="afooter" href="Aboutus.html">About Us</a></li>
+                    <li class="lifooter" ><a class="afooter" href="http://127.0.0.1:5500/Part1.php">Top Page</a></li>
+                    <li class="lifooter" ><a class="afooter" href="contactus.php">Contact Us</a></li>
+                    <li class="lifooter" ><a class="afooter" href="Aboutus.php">About Us</a></li>
                     <li class="lifooter" ><a class="afooter" href="FAQ">FAQ</a></li>
-                    <li class="lifooter" ><a class="afooter" href="Followus.html">Follow Us</a></li>
+                    <li class="lifooter" ><a class="afooter" href="Followus.php">Follow Us</a></li>
+                    <li class="lifooter" ><a class="afooter" href="index2.php">Admin Login</a></li>
                 </ul>
             </div>
         </footer>
