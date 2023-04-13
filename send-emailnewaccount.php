@@ -27,30 +27,33 @@ $role_sent = $_SESSION["role"];
             color: #fff;
         }
     </style>
+    <body>
+        <br>
+        <br>
 
-<br>
-<br>
+        <button class="logoutbutton"><a href="Logout.php">Log Out</a></button>
 
-<button class="logoutbutton"><a href="Logout.php">Log Out</a></button>
+        <br>
+        <br>
+        <h2 class="emailtext">Toujours à votre service <?=$gender_sent?> <?=$lastname_sent?>!!</h2>
+        <h2 class="emailtext">Envoyez-nous la raison de votre inscription chez Canoe Kayak !!</h2>
+        <br>
+        <form action="success.php">
 
-<br>
-<br>
-<h2 class="emailtext">Toujours à votre service <?=$gender_sent?> <?=$lastname_sent?>!!</h2>
-<h2 class="emailtext">Envoyez-nous la raison de votre inscription chez Canoe Kayak !!</h2>
-<br>
+            <div class="newaccountdiv">
+                <br>
+                <label>Votre adresse mail :</label>
+                <div class=adressmail><?=$mailadress_sent?></div>
+                <div><textarea type="text" name="description" placeholder="Entrez votre text"></textarea></div>
+                <input type="submit">
+                <br>
+                <br>
+            </div>
 
-<div class="newaccountdiv">
-    <br>
-    <label>Votre adresse mail :</label>
-    <div class=adressmail><?=$mailadress_sent?></div>
-    <div><textarea type="text" name="description" placeholder="Entrez votre text"></textarea></div>
-    <input type="submit">
-    <br>
-    <br>
-</div>
+        </form>
 
-<br>
-<br>
-
+        <br>
+        <br>
+    </body>
 </html>
 <?php include 'Includes/Footer.php' ; ?>
