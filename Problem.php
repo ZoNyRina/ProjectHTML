@@ -1,13 +1,12 @@
-<?php include 'Includes/Header.php' ; ?>
-
 <!--PHP-->
-<?php
+<?php 
+session_start();
+include 'Includes/Header.php' ;
 $gender_sent = $_GET["gender"];
 $lastname_sent = $_GET["lastname"];
 $firstname_sent = $_GET["firstname"];
 $role_sent = $_GET["role"];
 
-session_start();
 $_SESSION["gender"] = $gender_sent;
 $_SESSION["lastname"] = $lastname_sent;
 $_SESSION["firstname"] = $firstname_sent;

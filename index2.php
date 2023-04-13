@@ -9,25 +9,16 @@
         <br>
         <br>
         <br>
-
         <h1>Welcome to Canoe Kayak log In page!!</h1>
-
-
-
         <br>
         <br>
         <br>
-        <?php
-
-        
-
-        ?>
         <br>
         <h2 style= "text-align: center;">Veuillez entrer vos informations s'il vous plait.</h2>
         <br>
         <br>
-
         <form action="Problem.php">
+            
             <div class="FillTab">
                 <select name="gender" id="gender">
                     <option value="Mr">Mr</option>
@@ -36,7 +27,7 @@
 
                 <div><input type="text" name="firstname" placeholder="FirstName"></div>
                 <div><input type="text" name="lastname" placeholder="LastName"></div>
-            
+                
                 <select name="role">
                     <option value="Admin">Admin</option>
                     <option value="Manager">Manager</option>
@@ -44,8 +35,8 @@
                 </select>
                 <input type="submit">   
             </div>
-        </form>
 
+        </form>
         <br>
         <br>
         <br>

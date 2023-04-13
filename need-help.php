@@ -1,6 +1,6 @@
-<?php include 'Includes/Header.php' ; ?>
-<?php
+<?php 
 session_start();
+include 'Includes/Header.php' ;
 
 $gender_sent = $_SESSION["gender"];
 $lastname_sent = $_SESSION["lastname"];

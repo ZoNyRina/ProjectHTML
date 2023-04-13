@@ -1,8 +1,7 @@
-<?php include 'Includes/Header.php' ; ?>
-<?php
-$mailadress_sent = $_GET["mailadress"];
-
+<?php 
 session_start();
+include 'Includes/Header.php' ;
+$mailadress_sent = $_GET["mailadress"];
 
 $gender_sent = $_SESSION["gender"];
 $lastname_sent = $_SESSION["lastname"];

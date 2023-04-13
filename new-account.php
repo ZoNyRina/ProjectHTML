@@ -1,15 +1,12 @@
-<?php include 'Includes/Header.php' ; ?>
-<?php
+<?php 
 session_start();
+include 'Includes/Header.php' ;
 
 $gender_sent = $_SESSION["gender"];
 $lastname_sent = $_SESSION["lastname"];
 $firstname_sent = $_SESSION["firstname"];
 $role_sent = $_SESSION["role"];
 ?>
-
-
-
 <html>
     <head>
         <link rel="stylesheet" href="Part2.css">
