@@ -41,7 +41,7 @@ $role_sent = $_SESSION["role"];
         <br>
         <br>
         <br>
-
+        <form action="success2.php">
         <div class="newaccountdiv">
             <br>
             <label><?=$gender_sent?> <?=$firstname_sent?> <?=$lastname_sent?> : </label>
@@ -50,6 +50,7 @@ $role_sent = $_SESSION["role"];
             <br>
             <br>
         </div>
+        </form>
         <br>
         <br>
         <br>
