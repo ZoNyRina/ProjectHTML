@@ -57,6 +57,8 @@ $_SESSION["role"] = $role_sent;
             echo "<div class=optionlink><a class=optionlink href=lost-password.php>Lost Password</a></div>";
         } else if($role_sent == "CEO") {
             echo "<div class=optionlink><a class=optionlink href=need-help.php>Phone Number</a></div>";
+        } else if($role_sent == "TripPlaner") {
+            echo "<div class=optionlink><a class=optionlink href=Admin-add.php>Let's plan a new trip</a></div>";
         }
 
         ?>

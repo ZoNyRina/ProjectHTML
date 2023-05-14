@@ -27,7 +27,7 @@
 <nav class="sidebar">
             <button class="closebutton"><img src="image/close-line.png" class="imgclose"></button>
             <ul>
-                <li><a href="http://localhost/xamppfiles/ProjectHTMLDevoir2/Part1.php">Home</a></li>
+                <li><a href="http://localhost/xamppfiles/ProjectHTMLDevoir2/Index.php">Home</a></li>
                 <li><a href="services.php">Services</a></li>
                 <li><a href="booktrip.php">Book Trip</a></li>
                 <li><a href="index2.php">Log In</a></li>
@@ -40,7 +40,7 @@
         <nav class="sidebar2">
             <button class="closebutton2"><img src="image/close-line.png" class="imgclose"></button>
             <ul>
-                <li><a href="http://localhost/xamppfiles/ProjectHTMLDevoir2/Part1.php"><button class="homebutton"><img src="image/home-2-line.png" class="imghomebutton"></button></a></li>
+                <li><a href="http://localhost/xamppfiles/ProjectHTMLDevoir2/Index.php"><button class="homebutton"><img src="image/home-2-line.png" class="imghomebutton"></button></a></li>
                 <li><a href="services.php"><button class="servicebutton"><img src="image/hand-coin-line.png" class="imgservicesbutton"></button></a></li>
                 <li><a href="booktrip.php"><button class="bookbutton"><img src="image/book-open-line.png" class="imgbookbutton"></button></a></li>
                 <li><a href="index2.php"><button class="adminbutton"><img src="image/admin-line.png" class="imgadminbutton"></button></a></li>

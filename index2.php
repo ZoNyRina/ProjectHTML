@@ -32,6 +32,7 @@
                     <option value="Admin">Admin</option>
                     <option value="Manager">Manager</option>
                     <option value="CEO">CEO</option>
+                    <option value="TripPlaner">Trip Planer</option>
                 </select>
                 <input type="submit">   
             </div>
