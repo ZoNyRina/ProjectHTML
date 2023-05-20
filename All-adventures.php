@@ -45,7 +45,7 @@ $place_sent = $_SESSION["place"];
     
     while ($row = $stmt->fetch(PDO::FETCH_BOUND)) {
         echo "<tr>";
-        echo "<br> <u><h2>" . $place . "</h2></u>"; 
+        echo "<br><br><u><h2>" . $place . "</h2></u>"; 
         echo "<div>Date :" . " " . $tripdate . "</div>";
         echo "<div>Durée :" . " " . $duration . "</div> <br>";
         echo "<b>Summary</b> <br> <p> Un voyage créer et superviser par" . " " . $gender . " " . $firstname . " " . $lastname . "." . "</p>";

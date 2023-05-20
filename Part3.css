@@ -9,12 +9,11 @@
     border-radius: 8px;
     margin-bottom: 40px;
     padding: 24px;
+    width: 900px;
     page-break-inside: avoid;
-    word-wrap: break-word;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     justify-content: center;
     align-items: center;
-    width: 700px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -97,4 +96,40 @@ textarea {
     text-align: center;
     background-color: rgb(6, 125, 223);
     width: 250px
+    }
+
+    @media  (max-width: 600px) {
+        .FillTab {
+            background-color:#efefef; 
+            border: 1px solid #efefef;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            padding: 24px;
+            page-break-inside: avoid;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            max-width: 100%;
+            display: block;
+        }
+
+        .planername {
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+            border-radius:5px;
+            background-color: rgb(6, 125, 223);
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        textarea {
+            height: 150px;
+            width: 250px;
+        }
     }
