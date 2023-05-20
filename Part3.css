@@ -1,3 +1,5 @@
+
+/*Admin-add*/
 .textfortripplaner {
     text-align: center;
 }
@@ -51,6 +53,7 @@ textarea {
     color: #fff;
 }
 
+/*Admin-confirm*/
 .beforeconfirm2 {
     font-weight: bold;
 }
@@ -130,5 +133,9 @@ textarea {
         textarea {
             height: 150px;
             width: 250px;
+        }
+
+        .beforeconfirm1{
+            width: auto;
         }
     }
